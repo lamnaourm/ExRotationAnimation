@@ -12,9 +12,30 @@
         android:layout_height="200dp"
         android:src="@drawable/img1"
         android:id="@+id/img1"
+        android:background="@drawable/forme1"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"/>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="angle de depart ..."
+            android:layout_margin="5dp"
+            android:id="@+id/depart"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:hint="angle d'arrivee ..."
+            android:id="@+id/arrivee"/>
+    </LinearLayout>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
